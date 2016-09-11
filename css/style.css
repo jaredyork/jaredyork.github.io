@@ -7,10 +7,18 @@ html, body
 
 .container-main
 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   font-family: "Roboto", sans-serif;
+  font-size: 16pt;
 }
 
 .container-page
@@ -33,10 +41,78 @@ html, body
 /* Headings */
 .heading-content-l
 {
-  font-size: 2em;
+  margin: 0;
+  font-size: 3em;
+}
+
+.heading-content-ml
+{
+  margin: 0;
+  font-size: 1.75em;
+}
+
+.heading-content-m
+{
+  font-size: 1.5em;
+}
+
+/* Portfolio */
+.container-portfolio
+{
+  width: 100%;
+  text-align: center;
+}
+
+.container-portfolio-item
+{
+  padding: 24px;
+  margin: auto;
+}
+
+.container-portfolio-item figure
+{
+  cursor: pointer;
+}
+
+.container-portfolio-item img
+{
+  width: 100%;
+  max-width: 480px;
+}
+
+/* Images */
+.img-about-jared
+{
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  border: 24px solid #62F7FF;
+  border-radius: 6px;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.75);
+}
+
+/* Misc. styling */
+.ul-services
+{
+  margin: auto;
+  text-align: left;
+  width: 280px;
+}
+
+figure
+{
+  margin: 0;
+  padding: 0;
 }
 
 /* Footer classes */
+.footer-main
+{
+  color: white;
+  background: #2196F3;
+  padding: 16px;
+}
+
 .centered
 {
   text-align: center;
