@@ -2,7 +2,7 @@ html, body
 {
   margin: 0;
   padding: 0;
-  background: url("../images/background.png");
+  background: url("../images/background.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
@@ -27,7 +27,7 @@ html, body
 {
   width: 100%;
   max-width: 960px;
-  background: rgba(255, 255, 255, 0.75);
+  background: rgba(255, 255, 255, 0.8);
 }
 
 .container-content
