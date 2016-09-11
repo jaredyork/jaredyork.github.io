@@ -120,6 +120,12 @@ figure
 
 @media (max-width: 640px)
 {
+  .container-content-padding:
+  {
+    margin: 0;
+    padding: 4px 8px 4px 8px;
+  }
+
   .img-about-jared
   {
     border: 0;
