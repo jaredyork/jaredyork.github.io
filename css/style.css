@@ -117,3 +117,11 @@ figure
 {
   text-align: center;
 }
+
+@media (max-width: 640px)
+{
+  .img-about-jared
+  {
+    border: 0;
+  }
+}
