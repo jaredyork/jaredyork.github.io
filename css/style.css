@@ -1,0 +1,25 @@
+html, body
+{
+  margin: 0;
+  padding: 0;
+  background: #eee;
+}
+
+.container-main
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container-page
+{
+  width: 100%;
+  max-width: 960px;
+  background: white;
+}
+
+.container-content
+{
+
+}
