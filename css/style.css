@@ -24,3 +24,14 @@ html, body
 {
 
 }
+
+.container-content-padding
+{
+  padding: 16px 32px 16px 32px;
+}
+
+/* Headings */
+.heading-content-l
+{
+  font-size: 2em;
+}
