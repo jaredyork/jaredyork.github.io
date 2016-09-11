@@ -2,7 +2,9 @@ html, body
 {
   margin: 0;
   padding: 0;
-  background: #eee;
+  background: url("../images/background.png");
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .container-main
@@ -25,7 +27,7 @@ html, body
 {
   width: 100%;
   max-width: 960px;
-  background: white;
+  background: rgba(255, 255, 255, 0.75);
 }
 
 .container-content
@@ -122,7 +124,7 @@ figure
 {
   .container-main
   {
-    font-size: 13pt;  
+    font-size: 13pt;
   }
 
   .container-content-padding
@@ -133,6 +135,8 @@ figure
 
   .img-about-jared
   {
+    width: 100%;
+    height: auto;
     border: 0;
   }
 
