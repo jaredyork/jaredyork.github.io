@@ -35,3 +35,9 @@ html, body
 {
   font-size: 2em;
 }
+
+/* Footer classes */
+.footer-copyright
+{
+  text-align: center;
+}
