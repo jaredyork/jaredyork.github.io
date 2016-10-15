@@ -1,0 +1,1 @@
+$('.header-main').parallax({imageSrc: 'images/storm.jpg'});
