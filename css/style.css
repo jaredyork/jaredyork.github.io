@@ -4,11 +4,6 @@ html, body
   padding: 0;
 }
 
-body
-{
-  min-height: 200vh;
-}
-
 .container-main
 {
   display: -webkit-box;
@@ -136,6 +131,12 @@ body
   -webkit-justify-content: center;
 }
 
+.header-main.half-height
+{
+  min-height: 128px;
+  max-height: 50vh;
+}
+
 .container-header-content::before
 {
   filter: blur(5px);
@@ -213,6 +214,7 @@ body
 
 .container-article
 {
+  background: white;
   padding-bottom: 48px;
 }
 
