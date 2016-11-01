@@ -339,6 +339,13 @@ p.center
   text-align: center;
 }
 
+ul
+{
+  color: rgba(0, 0, 0, 0.54);
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+}
+
 /* buttons */
 .btn-flex-primary
 {
