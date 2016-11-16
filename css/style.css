@@ -232,22 +232,16 @@ html, body
 
 .portfolio-item-image
 {
-  width: 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  text-align: center;
 }
 
 .portfolio-item-image img
 {
-  display: block;
+  width: 100%;
+  min-width: 320px;
+  max-width: 480px;
+  height: auto;
+  margin: auto;
 }
 
 .quote-mark
@@ -333,7 +327,30 @@ html, body
   text-align: center;
 }
 
+.heading-portfolio-item
+{
+  color: rgba(0, 0, 0, 0.74);
+  font-family: 'Work Sans', sans-serif;
+  font-size: 55px;
+  font-weight: 700;
+  text-align: center;
+}
+
 /* Misc. stylings */
+a
+{
+  color: #0D47A1;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: all ease-in-out 0.15s;
+}
+
+a:hover
+{
+  color: #0D47A1;
+  border-color: #0D47A1;
+}
+
 p.center
 {
   text-align: center;
@@ -400,6 +417,21 @@ ul
   }
 }
 
+@media (max-width: 640px)
+{
+  .quoted-text
+  {
+    margin: 0;
+    padding: 0;
+    width: 100%; 
+  }
+  
+  .portfolio-item-image
+  {
+    margin: 0;
+  }
+}
+
 @media (max-width: 480px)
 {
   .header-main
@@ -425,5 +457,21 @@ ul
   {
     padding-left: 32px;
     padding-right: 32px;
+  }
+  
+  /* Headings */
+  .heading-content-ms /* medium small */
+  {
+    font-size: 32px;
+  }
+
+  .heading-content-m
+  {
+    font-size: 55px;
+  }
+
+  .heading-portfolio-item
+  {
+    font-size: 45px;
   }
 }
