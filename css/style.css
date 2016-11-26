@@ -170,7 +170,7 @@ html, body
 
 .heading-main-title
 {
-  color: rgba(0, 0, 0, 0.74);
+  color: black;
   margin: 0;
   padding: 0;
   font-family: 'Work Sans', sans-serif;
@@ -274,6 +274,17 @@ html, body
   color: white;
 }
 
+#customcomputers-plans
+{
+  min-height: 320px;
+  padding: 32px 0 64px 0;
+}
+
+#customcomputers-plans h2
+{
+  color: white;
+}
+
 .flex-item-home-services
 {
   color: black;
@@ -311,7 +322,7 @@ html, body
 /* Headings */
 .heading-content-ms /* medium small */
 {
-  color: rgba(0, 0, 0, 0.74);
+  color: black;
   font-family: "Work Sans", sans-serif;
   font-size: 32px;
   font-weight: 700;
@@ -320,7 +331,7 @@ html, body
 
 .heading-content-m
 {
-  color: rgba(0, 0, 0, 0.74);
+  color: black;
   font-family: 'Work Sans', sans-serif;
   font-size: 64px;
   font-weight: 700;
@@ -423,9 +434,9 @@ ul
   {
     margin: 0;
     padding: 0;
-    width: 100%; 
+    width: 100%;
   }
-  
+
   .portfolio-item-image
   {
     margin: 0;
@@ -458,7 +469,7 @@ ul
     padding-left: 32px;
     padding-right: 32px;
   }
-  
+
   /* Headings */
   .heading-content-ms /* medium small */
   {
