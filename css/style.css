@@ -97,6 +97,7 @@ html, body
 {
   color: #FF9800;
   background: white;
+  border: 0;
 }
 
 .container-background.bg-dark
