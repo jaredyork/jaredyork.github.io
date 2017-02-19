@@ -6,3 +6,5 @@ $("#customcomputers-plans").parallax({imageSrc: 'images/background3.jpg'});
 document.querySelector(".btn-navburger").addEventListener("click", function() {
   this.classList.toggle("active");
 });
+
+alert("hi")
