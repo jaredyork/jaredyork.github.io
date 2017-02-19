@@ -289,7 +289,7 @@ html, body
   display: block;
   width: 50%;
   height: 50vh;
-  background: url("../images/processorinstall.jpg");
+  background: url("../images/processorinstall.JPG");
 
   background-size: cover;
 }
@@ -336,6 +336,11 @@ html, body
 
   filter: blur(50%);
   -webkit-filter: blur(50%);
+}
+
+.header-main.contact .container-header-content
+{
+  max-height: 480px;
 }
 
 .container-content-padding
