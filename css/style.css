@@ -60,46 +60,6 @@ html, body
       justify-content: space-around;
 }
 
-.menustrip-nav
-{
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-}
-
-.menustrip-nav-item
-{
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.menustrip-nav-item a
-{
-  color: #2196F3;
-  background: #e9e9e9;
-  -webkit-transition: background 0.15s ease-in-out;
-  transition: background 0.15s ease-in-out;
-  padding: 8px;
-  padding-left: 16px;
-  padding-right: 16px;
-  font-family: "Roboto", sans-serif;
-  font-size: 26px;
-  cursor: pointer;
-  text-decoration: none;
-}
-
-.menustrip-nav-item a:hover
-{
-  color: #FF9800;
-  background: white;
-  border: 0;
-}
-
 .container-background.bg-dark
 {
   background: black;
@@ -359,7 +319,7 @@ html, body
   margin: 0;
   padding: 0;
   font-family: 'Work Sans', sans-serif;
-  font-size: 96px;
+  font-size: 5em;
   font-weight: 800;
 }
 
@@ -367,7 +327,7 @@ html, body
 {
   color: black;
   font-family: 'Tauri', sans-serif;
-  font-size: 24px;
+  font-size: 1.5em;
 }
 
 .container-main
@@ -435,7 +395,7 @@ html, body
   top: 24px;
   line-height: 0;
   font-family: "Catamaran", sans-serif;
-  font-size: 64px;
+  font-size: 5em;
   font-weight: bold;
 }
 
@@ -445,7 +405,7 @@ html, body
   padding: 16px;
   background: #e9e9e9;
   font-family: "Roboto", sans-serif;
-  font-size: 22px;
+  font-size: 1.25em;
 }
 
 #home-services
@@ -482,7 +442,7 @@ html, body
       align-self: center;
   box-shadow: 0px 1px 5px solid rgba(0, 0, 0, 0.75);
   font-family: "Roboto", sans-serif;
-  font-size: 20px;
+  font-size: 1.25em;
 }
 
 .container-footer-padding
@@ -509,7 +469,7 @@ html, body
 {
   color: black;
   font-family: "Work Sans", sans-serif;
-  font-size: 32px;
+  font-size: 1.5em;
   font-weight: 700;
   text-align: center;
 }
@@ -518,7 +478,7 @@ html, body
 {
   color: black;
   font-family: 'Work Sans', sans-serif;
-  font-size: 64px;
+  font-size: 2em;
   font-weight: 700;
   text-align: center;
 }
@@ -606,7 +566,9 @@ figure img
 
 figcaption
 {
+  color: rgba(0, 0, 0, 0.54);
   font-family: "Roboto", sans-serif;
+  font-size: 1.25em;
 }
 
 /* Mobile friendly queries */
