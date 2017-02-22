@@ -354,7 +354,7 @@ html, body
 {
   color: rgba(0, 0, 0, 0.54);
   font-family: 'Tauri', sans-serif;
-  font-size: 22px;
+  font-size: 1.25em;
 }
 
 .container-article
@@ -368,11 +368,11 @@ html, body
   text-align: center;
 }
 
-.portfolio-item
+.portfolio-item p
 {
   color: rgba(0, 0, 0, 0.54);
   font-family: "Roboto", sans-serif;
-  font-size: 22px;
+  font-size: 1.25em;
 }
 
 .portfolio-item-image
@@ -469,7 +469,7 @@ html, body
 {
   color: black;
   font-family: "Work Sans", sans-serif;
-  font-size: 1.5em;
+  font-size: 2em;
   font-weight: 700;
   text-align: center;
 }
@@ -478,7 +478,7 @@ html, body
 {
   color: black;
   font-family: 'Work Sans', sans-serif;
-  font-size: 2em;
+  font-size: 5em;
   font-weight: 700;
   text-align: center;
 }
@@ -487,7 +487,17 @@ html, body
 {
   color: rgba(0, 0, 0, 0.74);
   font-family: 'Work Sans', sans-serif;
-  font-size: 55px;
+  font-size: 3em;
+  font-weight: 700;
+  text-align: center;
+  margin: 0;
+}
+
+.heading-portfolio-item-completed
+{
+  color: rgba(0, 0, 0, 0.54);
+  font-family: 'Work Sans', sans-serif;
+  font-size: 2em;
   font-weight: 700;
   text-align: center;
 }
@@ -631,6 +641,8 @@ figcaption
   {
     margin: 0;
     padding: 0;
+    padding-top: 8px;
+    padding-bottom: 8px;
     width: 100%;
   }
 
@@ -680,6 +692,6 @@ figcaption
 
   .heading-portfolio-item
   {
-    font-size: 45px;
+    font-size: 2em;
   }
 }
