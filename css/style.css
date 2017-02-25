@@ -80,16 +80,21 @@ html, body
   position: absolute;
   margin: 0;
   padding: 0;
+
+  transition: left 0.5s;
+  left: 0px;
 }
 
 .btn-navburger.active
 {
+  transition: left 0.5s;
   left: 320px;
 }
 
 .btn-navburger.active ~.sidebar-main
 {
-  visibility: visible;
+  transition: 0.5s;
+  left: 0px;
 }
 
 .btn-navburger span, .btn-navburger span:before, .btn-navburger span:after
@@ -146,7 +151,9 @@ html, body
   width: 320px;
   height: 100vh;
   background: #e9e9e9;
-  visibility: hidden;
+
+  transition: left 0.5s;
+  left: -320px;
 }
 
 .navlist-main
