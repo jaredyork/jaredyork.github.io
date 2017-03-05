@@ -344,7 +344,7 @@ html, body
 .content-main-title
 {
   color: black;
-  font-family: 'Tauri', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 1.5em;
 }
 
@@ -371,7 +371,7 @@ html, body
 .container-article > p
 {
   color: rgba(0, 0, 0, 0.54);
-  font-family: 'Tauri', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.25em;
 }
 
@@ -415,14 +415,12 @@ html, body
   padding-bottom: 64px;
 }
 
-
-
 .quote-mark
 {
   position: relative;
   top: 24px;
   line-height: 0;
-  font-family: "Catamaran", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 5em;
   font-weight: bold;
 }
@@ -552,7 +550,7 @@ html, body
 a
 {
   color: #0D47A1;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.25em;
   text-decoration: none;
 }
@@ -565,7 +563,7 @@ a.link
 a.link
 {
   color: #0D47A1;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.25em;
   text-decoration: none;
 }
@@ -578,6 +576,12 @@ a.link:hover
 p.center
 {
   text-align: center;
+}
+
+ul
+{
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 li
@@ -635,11 +639,21 @@ figure img
   width: 100%;
 }
 
+figure.circle img
+{
+  border-radius: 50%;
+}
+
 figcaption
 {
   color: rgba(0, 0, 0, 0.54);
   font-family: "Roboto", sans-serif;
   font-size: 1.25em;
+}
+
+figcaption.center
+{
+  text-align: center;
 }
 
 /* Mobile friendly queries */
