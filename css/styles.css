@@ -212,9 +212,15 @@ p
   padding: 4px;
 }
 
+.container-img-center
+{
+  text-align: center;
+}
+
 .fig-small
 {
-  max-width: 256px;
+  margin: auto;
+  max-width: 60%;
   padding: 32px;
 }
 
@@ -291,13 +297,14 @@ html *
     font-size: 1em;
   }
 
-  .container-content *
+  .container-content *:not(span)
   {
     padding: 24px;
   }
 
   .fig-small
   {
+    max-width: 256px;
     padding: 0;
   }
 
