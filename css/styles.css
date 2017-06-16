@@ -278,13 +278,14 @@ html *
 
   .header-main-flex
   {
-    width: 100%;
+    width: 90%;
     top: 32px;
   }
 
   .heading-header
   {
-    margin-right: 40px;
+    width: 90%;
+    margin-right: 50px;
   }
 
   .heading-header-main
@@ -297,15 +298,21 @@ html *
     font-size: 1em;
   }
 
-  .container-content *:not(span)
+  .container-content *:not(span,.portfolio-thumb)
   {
     padding: 24px;
+  }
+
+  .container-img-center
+  {
+    text-align: center;
   }
 
   .fig-small
   {
     max-width: 256px;
     padding: 0;
+    margin: auto;
   }
 
   .heading-content-s
