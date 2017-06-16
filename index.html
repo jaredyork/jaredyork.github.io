@@ -2,160 +2,132 @@
 <html>
   <head>
     <meta charset="utf-8" lang="en-us" />
-    <meta name=viewport content="width=device-width, initial-scale=1">
-
+    <meta name=viewport content="width=device-width, initial-scale=1" />
     <title>Jared York</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
 
-    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,700,800" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,400i" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="js/parallax.js-1.4.2/parallax.min.js"></script>
-
-    <script>
-      var _gap = _gap || [];
-
-      // Standard Google Analytics pushes, just with _gap.push.
-      // You can push anything, just like normal, via _gap.push instead of _gaq.push.
-      _gap.push(['_setAccount', 'UA-86666822-1']); // Change to your account.
-      _gap.push(['_trackPageview']);
-
-      // With both bounce trackers active, any user who scrolls down 50% OR
-      // stays 10 seconds is not counted as a bounce. You can use just one, or none.
-      _gap.push(['_gapTrackBounceViaTime', 10]); // Optionally change (min seconds).
-      _gap.push(['_gapTrackBounceViaScroll', 50]); // Optionally change (min percentage).
-
-      // Every 20 seconds, push a read event so that time on site is more accurate.
-      // Only allow 30 of these read events per page.
-      _gap.push(['_gapTrackReads', 20, 30]); // Optionally change (cadence and max read events per page).
-
-      // Anytime a user clicks a link, internal or external, push the event.
-      _gap.push(['_gapTrackLinkClicks']);
-
-      // Push the maximum percentage scrolled.
-      _gap.push(['_gapTrackMaxScroll', 25]); // Optionally change (min percentage).
-
-      (function() {
-          var gap = document.createElement('script');
-          gap.async = true;
-          gap.type = 'text/javascript';
-          gap.src = 'js/gap.min.js'; // Change, if needed.
-
-          var s = document.getElementsByTagName('script')[0];
-          s.parentNode.insertBefore(gap, s);
-      })();
-
-    </script>
-
+    <script src="js/gap.min.js"></script>
+    <script src="js/analytics.js"></script>
   </head>
 
   <body>
-
-    <a class="btn-navburger" href="#">
-      <span></span>
-    </a>
-    <aside class="sidebar-main">
-      <nav class="navlist-main">
-        <a href="index.html"><div>Home</div></a>
-        <a href="webportfolio.html"><div>Web portfolio</div></a>
-        <a href="customcomputers.html"><div>Custom computers</div></a>
-        <a href="contact.html"><div>Contact</div></a>
-      </nav>
-    </aside>
-
-    <div class="header-main-background">
-      <div class="header-main-bg-row1">
-        <div></div>
-        <div></div>
-      </div>
-
-      <div class="header-main-bg-row2">
-        <div></div>
-        <div></div>
-      </div>
-    </div>
-
-    <header class="header-main">
-      <section class="container-header-content">
-        <div class="container-content-padding">
-          <h1 class="heading-main-title">Jared York</h1>
-
-          <p class="content-main-title">
-            Web designer, web developer, custom computer builder, computer programmer
-          </p>
-          <p class="content-main-title">
-            JavaScript, HTML(5), CSS(3), PHP, C#, Java
-          </p>
-        </div>
-      </section>
-    </header>
-
     <main class="container-main">
-      <section class="container-full-width">
-        <section class="container-background">
-          <div class="container-flex-center">
-            <section class="container-pagewidth">
+      <section class="container-page">
+        <header>
+          <section class="header-main-flex">
+            <div></div>
+            <div class="heading-header">
+              <h1 class="heading-header-main">Jared York</h1>
+              <p class="heading-header-tag">jared.york@jaredyork.com</p>
+              <p class="heading-header-tag">(616) 669-1492</p>
+            </div>
 
-              <article class="container-article">
-                <h2 class="heading-content-m">About Jared</h2>
-                <figure class="sm center circle">
-                  <img src="images/avatar.jpg" alt="Jared York" />
-                  <figcaption class="center">Jared York</figcaption>
-                </figure>
-                <p>Hello! My name is Jared York.  I offer various computer-related services.</p>
-                <p>In 2014, I created a game named Steer Clear for all computing platforms using HTML5 and JavaScript.  Since then, I started architecting and building personal and small business websites.</p>
-                <p>Since then, I have built a small but growing portfolio of all of the websites I've designed and built.  You can find the websites I have developed under the web portfolio tab.</p>
-              </article>
-            </section>
+          </section>
+          <img class="header-main-bg" src="images/header_lighthouse.jpg" alt="York Computer Solutions"/>
+        </header>
+
+        <div class="separator-gray"></div>
+
+        <nav class="container-game nav bg-gray" role="navigation">
+          <p>You can view information about my services via the links below:</p>
+          <a href="index.html#customcomputers">Custom Computers</a>
+          <a href="index.html#webdesign">Web Design</a>
+        </nav>
+
+        <section class="container-content bg-gray">
+          <h2 class="heading-content-m">Who I Am</h2>
+          <p>Hi, my name is Jared York and I provide a number of computer and web related services.  I offer affordable web design and building custom computers.
+          You can view more details about my services below.  My first website I have designed was finished January 1 2016 for Georgetown Driving School LLC.  Since then I built another website
+          for Jenison Animal Hospital, P.C.  that was finished in late August of 2016.  I have experience building custom desktop computers as well.  Another area of expertise I have is designing and developing
+          two-dimensional computer games, the latest of which, <span class="italicize">Steer Clear</span>, will be released early 2018.
+        </p>
+        </section>
+
+        <section class="container-flex">
+          <div class="container-flex-child">
+            <h3 class="heading-content-s center-aligned">Custom Computer Builds</h3>
+            <h3 class="heading-s">
+            <p>I can build custom computers from a selection of parts the customer buys.  My fee for building a computer is a flat-rate of $125 per build.
+          </div>
+
+          <div class="container-flex-child">
+            <h3 class="heading-content-s center-aligned">&quot;Homemade&quot; Web Design</h3>
+            <p>One of my specialties is designing and developing custom websites from scratch.  I use the latest techniques and trends in web technologies including HTML5 and CSS3.</p>
           </div>
         </section>
-        <section class="container-background">
-          <section class="container-content" id="home-services">
-            <div class="container-flex-center">
-              <section class="container-pagewidth">
-                <header>
-                  <h2 class="heading-content-m">My Services</h2>
-                </header>
-                <div class="container-flex-spacearound">
-                  <section class="flex-item-home-services">
-                    <div class="container-flex-padding">
-                      <h3 class="heading-content-ms">Custom websites</h3>
-                      <p>From planning, wire-framing the information to be architected, and building, I build fully custom websites from scratch at an affordable rate.</p>
-                      <h3 class="heading-content-ms">One-time flat fee based on project specifics</h3>
-                      <br />
-                      <div class="btn-flex-primary">
-                        <a href="webportfolio.html">See portfolio</a>
-                      </div>
-                    </div>
-                  </section>
 
-                  <section class="flex-item-home-services">
-                    <div class="container-flex-padding">
-                      <h3 class="heading-content-ms">Custom computers</h3>
-                      <p>I build custom computers catered directly to your needs and specifications.</p>
-                      <h3 class="heading-content-ms">$125 per build</h3>
-                      <p class="center">Includes consulting on details about the new computer and parts.  If you buy the parts and have them shipped to me, I will be happy to build it.</p>
-                      <br />
-                      <div class="btn-flex-primary">
-                        <a href="customcomputers.html">Learn more</a>
-                      </div>
-                    </div>
-                  </section>
-                </div>
-              </section>
-            </div>
+        <section id="customcomputers" class="container-content bg-gray">
+          <h2 class="heading-content-m">Custom Computers</h2>
+          <h3 class="heading-content-s">$125 labor fee - service does not including parts</h3>
+          <figure class="fig-small">
+            <img src="images/processorinstall.JPG" alt="Jared installing a processor" />
+            <figcaption>Jared installing a processor.</figcaption>
+          </figure>
+
+          <figure class="fig-small">
+            <img src="images/computertesting.jpg" alt="Testing new computer build and loading operating system" />
+            <figcaption>Testing new computer build and loading operating system.</figcaption>
+          </figure>
+
+          <figure class="fig-small">
+            <img src="images/raminstall.JPG" alt="Jared is install memory sticks into a new computer build." />
+            <figcaption>Jared is install memory sticks into a new computer build.</figcaption>
+          </figure>
+
+          <p>
+            I build custom computers from scratch from a selection of parts based upon customer specifications.
+            Feel free to e-mail me if you are interested in a new custom desktop computer at <a href="mailto://jared.york@jaredyork.com">jared.york@jaredyork.com</a> and I can give
+            part recommendations during a free consultation if desired.
+
+            If you are from the local area west of Grand Rapids, I can deliver your computer right to your house.
+          </p>
+        </section>
+
+        <section id="webdesign" class="container-content">
+          <h2 class="heading-content-m">Web Design</h2>
+          <h3 class="heading-content-s">One-time flat rate based on project requirements</h3>
+          <p>From planning, wire-framing the information to be architected, and building, I build fully custom websites from scratch at an affordable rate.</p>
+          <h3 class="heading-content-s">Portfolio</h3>
+          <section class="container-portfolio-flex">
+            <a class="portfolio-thumb" href="http://georgetown-driving-school.com">
+              <figure>
+                <img src="images/thumb_gtds0.png" alt="Georgetown Driving School"/>
+                <figcaption>Georgetown Driving School</figcaption>
+              </figure>
+            </a>
+
+            <a class="portfolio-thumb" href="https://jenisonah.com">
+              <figure>
+                <img src="images/thumb_jenisonah.png" alt="Jenison Animal Hospital" />
+                <figcaption>Jenison Animal Hospital</figcaption>
+              </figure>
+            </a>
           </section>
         </section>
-        <footer class="footer-main">
-          <div class="container-content-padding">
-            <p>&copy; 2017 Jared York</p>
-            <p>Site under construction</p>
-            <small><a href="privacy.html">Privacy</a></small>
+
+        <section class="container-content bg-gray">
+          <h2 class="heading-content-m">Letters of Recommendation</h2>
+          <hr />
+          <div>
+            <h2 class="heading-content-s">Steer Clear Project ~ Dan Klyn</h2>
+            <ul>
+              <li>Adjunct Faculty, U-M School of Information</li>
+              <li>President, Information Architecture Institute</li>
+              <li>Co-founder, The Understanding Group (TUG)</li>
+              <li><a href="docs/DK-JaredYorkReco2016.pdf">Letter of Recommendation from Dan Klyn (T.U.G.)</a></li>
+            </ul>
           </div>
+          <hr />
+        </section>
+
+        <footer class="footer-main">
+          <small>&copy; 2017 Jared York</small><br />
+          <a href="privacy.html">Privacy</a>
         </footer>
       </section>
     </main>
-    <script src="js/functions.js"></script>
   </body>
 </html>

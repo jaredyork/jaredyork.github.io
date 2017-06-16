@@ -2,115 +2,70 @@
 <html>
   <head>
     <meta charset="utf-8" lang="en-us" />
-    <meta name=viewport content="width=device-width, initial-scale=1">
-
+    <meta name=viewport content="width=device-width, initial-scale=1" />
     <title>Jared York</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
 
-    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,700,800" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,400i" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <style>
+      a
+      {
+        display: inline-block;
+        padding-top: 16px;
+        padding-bottom: 16px;
+      }
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="js/parallax.js-1.4.2/parallax.min.js"></script>
+      ul
+      {
+        list-style-type: circle;
+      }
 
-    <script>
-      var _gap = _gap || [];
-
-      // Standard Google Analytics pushes, just with _gap.push.
-      // You can push anything, just like normal, via _gap.push instead of _gaq.push.
-      _gap.push(['_setAccount', 'UA-86666822-1']); // Change to your account.
-      _gap.push(['_trackPageview']);
-
-      // With both bounce trackers active, any user who scrolls down 50% OR
-      // stays 10 seconds is not counted as a bounce. You can use just one, or none.
-      _gap.push(['_gapTrackBounceViaTime', 10]); // Optionally change (min seconds).
-      _gap.push(['_gapTrackBounceViaScroll', 50]); // Optionally change (min percentage).
-
-      // Every 20 seconds, push a read event so that time on site is more accurate.
-      // Only allow 30 of these read events per page.
-      _gap.push(['_gapTrackReads', 20, 30]); // Optionally change (cadence and max read events per page).
-
-      // Anytime a user clicks a link, internal or external, push the event.
-      _gap.push(['_gapTrackLinkClicks']);
-
-      // Push the maximum percentage scrolled.
-      _gap.push(['_gapTrackMaxScroll', 25]); // Optionally change (min percentage).
-
-      (function() {
-          var gap = document.createElement('script');
-          gap.async = true;
-          gap.type = 'text/javascript';
-          gap.src = 'js/gap.min.js'; // Change, if needed.
-
-          var s = document.getElementsByTagName('script')[0];
-          s.parentNode.insertBefore(gap, s);
-      })();
-
-    </script>
+      li
+      {
+        position: relative;
+        left: 32px;
+        padding: 0;
+        font-size: 1.5em;
+      }
+    </style>
   </head>
 
   <body>
-    <a class="btn-navburger" href="#">
-      <span></span>
-    </a>
-    <aside class="sidebar-main">
-      <nav class="navlist-main">
-        <a href="index.html"><div>Home</div></a>
-        <a href="webportfolio.html"><div>Web portfolio</div></a>
-        <a href="customcomputers.html"><div>Custom computers</div></a>
-        <a href="contact.html"><div>Contact</div></a>
-      </nav>
-    </aside>
-
     <main class="container-main">
-      <section class="container-full-width">
-        <section class="container-background">
-          <div class="container-flex-center">
-            <section class="container-pagewidth">
-              <article class="container-article">
-                <h2 class="heading-content-m">Privacy policy</h2>
-                <p>Like millions of other website owners out there, we use Google Analytics on jaredyork.com.</p>
-                <p>Google Analytics is a software that collects anonymous non-identifying information about our visitors.</p>
-                <br />
-                <h2 class="heading-content-ms">What does Google Analytics collect?</h2>
-                <ul>
-                  <li>What website you came from to get here.</li>
-                  <li>How long you stay on the site.</li>
-                  <li>What kind of device you're using.</li>
-                  <li>And quite a bit more.</li>
-                </ul>
-                <br />
-                <h2 class="heading-content-ms">What do you do with this information?</h2>
-                <p>The information collected helps us understand what kind of people are visiting.
-                  The information also helps with letting us know what devices we may need to adjust the display of the website for so you can get the best possible experience on our site.
-                </p>
-                <p>
-                  Occasionally we compile statistics about the number of visitors this site receives and browsers being used. No personally identifiable data is included in these statistics.
-                </p>
-                <br />
-                <h2 class="heading-content-ms">Want to opt out of tracking?</h2>
-                <!--
-                <p>
-                  You can opt out of tracking <a href="optout.php">here</a> (sets a cookie to disable tracking) <i>This only works on jaredyork.com.</i>
-                </p>
-                -->
-                <p>
-                  You can <a href="http://tools.google.com/dlpage/gaoptout?hl=en">use a browser plugin to opt out of all Google Analytics tracking software</a>.
-                </p>
-              </article>
-            </section>
-          </div>
-        </section>
-        <footer class="footer-main">
-          <div class="container-content-padding">
-            <p>&copy; 2016 Jared York</p>
-            <p>Site under construction</p>
-            <small><a href="privacy.html">Privacy</a></small>
-          </div>
-        </footer>
+      <section class="container-page">
+        <article class="container-content">
+          <a href="index.html">&lt;&lt; Back to Home</a>
+          <h2 class="heading-content-m">Privacy policy</h2>
+          <p>Like millions of other website owners out there, we use Google Analytics on jaredyork.com.</p>
+          <p>Google Analytics is a software that collects anonymous non-identifying information about our visitors.</p>
+          <br />
+          <h2 class="heading-content-s">What does Google Analytics collect?</h2>
+          <ul>
+            <li>What website you came from to get here.</li>
+            <li>How long you stay on the site.</li>
+            <li>What kind of device you're using.</li>
+            <li>And quite a bit more.</li>
+          </ul>
+          <br />
+          <h2 class="heading-content-s">What do you do with this information?</h2>
+          <p>The information collected helps us understand what kind of people are visiting.
+            The information also helps with letting us know what devices we may need to adjust the display of the website for so you can get the best possible experience on our site.
+          </p>
+          <p>
+            Occasionally we compile statistics about the number of visitors this site receives and browsers being used. No personally identifiable data is included in these statistics.
+          </p>
+          <br />
+          <h2 class="heading-content-s">Want to opt out of tracking?</h2>
+          <!--
+          <p>
+            You can opt out of tracking <a href="optout.php">here</a> (sets a cookie to disable tracking) <i>This only works on jaredyork.com.</i>
+          </p>
+          -->
+          <p>
+            You can <a href="http://tools.google.com/dlpage/gaoptout?hl=en">use a browser plugin to opt out of all Google Analytics tracking software</a>.
+          </p>
+        </article>
       </section>
     </main>
-    <script src="js/functions.js"></script>
   </body>
-</html>
