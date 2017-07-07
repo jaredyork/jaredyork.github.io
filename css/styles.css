@@ -257,6 +257,20 @@ p
   text-align: center;
 }
 
+.aboutme-container
+{
+  text-align: center;
+}
+
+.aboutme
+{
+  display: block;
+  max-width: 256px;
+  max-height: 256px;
+  border-radius: 50%;
+  margin: auto;
+}
+
 /*
 html *
 {
