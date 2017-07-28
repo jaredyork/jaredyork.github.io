@@ -21,6 +21,12 @@ body
   padding: 0.25em 0 0.25em 0;
 }
 
+.coffee-steam
+{
+  position: relative;
+  top: -10px;
+}
+
 article
 {
   text-align: left;
@@ -58,6 +64,13 @@ article p
 ol, ul
 {
   list-style: circle;
+}
+
+.left-aligned
+{
+  display: block;
+  text-align: left;
+  padding: 1em;
 }
 
 h1
