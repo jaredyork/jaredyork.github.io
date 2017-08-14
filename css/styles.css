@@ -39,7 +39,7 @@ figure.aboutme img
   height: auto;
   border-radius: 50%;
   border: 30px solid #e1e1e1;
-  box-shadow: -1px 2px 10px rgba(0, 0, 0, 0.75);
+  /* box-shadow: -1px 2px 10px rgba(0, 0, 0, 0.75); */
   margin: auto;
 }
 
