@@ -54,6 +54,38 @@ article p
   line-height: 1.5em;
 }
 
+.portfolio
+{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 1rem;
+}
+
+.portfolio-tile
+{
+  width: 100%;
+  height: 250px;
+  transition: width 0.25s ease-out;
+}
+
+.portfolio-tile:hover
+{
+  width: 200%;
+  transition: width 0.25s ease-in;
+  z-index: 1;
+}
+
+.portfolio-tile img
+{
+  width: 100%;
+}
+
+.portfolio-date-created
+{
+  color: #888;
+}
+
 .quicklinks
 {
   text-align: left;
