@@ -1,0 +1,158 @@
+body
+{
+  font-family: "times-new-roman", serif;
+  text-align: center;
+}
+
+.wrapper
+{
+  font-family: "Times-New-Roman";
+  margin: auto;
+  max-width: 960px;
+}
+
+.header-main
+{
+  text-align: center;
+  padding: 2em 0 2em 0;
+}
+
+.header-main p
+{
+  padding: 0.25em 0 0.25em 0;
+}
+
+.coffee-steam
+{
+  position: relative;
+  top: -20px;
+}
+
+.featured-video
+{
+  max-width: 320px;
+}
+
+figure.aboutme
+{
+  text-align: center;
+}
+
+figure.aboutme img
+{
+  width: 90%;
+  max-width: 256px;
+  height: auto;
+  border-radius: 50%;
+  border: 30px solid #e1e1e1;
+  /* box-shadow: -1px 2px 10px rgba(0, 0, 0, 0.75); */
+  margin: auto;
+}
+
+article
+{
+  text-align: left;
+  padding: 1em 2em 1em 2em;
+}
+
+article p
+{
+  line-height: 1.5em;
+}
+
+.portfolio
+{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 1rem;
+}
+
+.portfolio-tile
+{
+  width: 100%;
+  height: 250px;
+  transition: width 0.25s ease-out;
+}
+
+.portfolio-tile figure
+{
+  background: white;
+}
+
+.portfolio-tile:hover
+{
+  /*width: 200%;*/
+  transition: width 0.25s ease-in;
+  z-index: 1;
+}
+
+.portfolio-tile img
+{
+  width: 100%;
+}
+
+.portfolio-date-created
+{
+  color: #888;
+}
+
+.quicklinks
+{
+  text-align: left;
+  width: 50%;
+  padding: 1em 2em 1em 2em;
+}
+
+.quicklinks ul
+{
+  padding: 1em;
+}
+
+.footer-main
+{
+  text-align: center;
+  padding: 2em 0 2em 0;
+}
+
+.center-div-child
+{
+  text-align: center;
+}
+
+ol, ul
+{
+  list-style: circle;
+}
+
+.left-aligned
+{
+  display: block;
+  text-align: left;
+  padding: 1em;
+}
+
+h1
+{
+  font-size: 3em;
+  font-weight: bold;
+  padding: 0.25em 0 0.25em 0;
+}
+
+h3
+{
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 0.25em 0 0.25em 0;
+}
+
+small
+{
+  font-size: 0.75em;
+  padding: 0.15em 0 0.15em 0;
+}
+
+b
+{
+  font-weight: bold;
+}

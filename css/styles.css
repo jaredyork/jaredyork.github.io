@@ -1,25 +1,6 @@
 body
 {
-  font-family: "times-new-roman", serif;
-  text-align: center;
-}
-
-.wrapper
-{
-  font-family: "Times-New-Roman";
-  margin: auto;
-  max-width: 960px;
-}
-
-.header-main
-{
-  text-align: center;
-  padding: 2em 0 2em 0;
-}
-
-.header-main p
-{
-  padding: 0.25em 0 0.25em 0;
+  background: #fafafa;
 }
 
 .coffee-steam
@@ -28,131 +9,130 @@ body
   top: -20px;
 }
 
-.featured-video
+.wrapper
 {
-  max-width: 320px;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  background: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
 
-figure.aboutme
+.padding-nav
 {
-  text-align: center;
+  background: #333;
+  padding-left: 48px;
+  padding-right: 48px;
 }
 
-figure.aboutme img
+.padding-header
 {
-  width: 90%;
-  max-width: 256px;
-  height: auto;
-  border-radius: 50%;
-  border: 30px solid #e1e1e1;
-  /* box-shadow: -1px 2px 10px rgba(0, 0, 0, 0.75); */
-  margin: auto;
+  padding: 16px 48px 16px 48px;
 }
 
-article
+.nav-main
 {
-  text-align: left;
-  padding: 1em 2em 1em 2em;
+  display: flex;
+  flex-direction: row;
 }
 
-article p
+.btn-nav
+{
+  color: white;
+  display: inline-block;
+  height: 100%;
+  padding-left: 24px;
+  padding-right: 24px;
+  line-height: 48px;
+  text-decoration: none;
+}
+
+.btn-nav:hover
+{
+  background: #555;
+}
+
+.content-post
+{
+  padding: 48px;
+  border-bottom: 1px solid #e9e9e9;
+}
+
+.content-post:last-child
+{
+  border-bottom: none;
+}
+
+.content-post header
+{
+  padding-bottom: 16px;
+}
+
+.content-post-date
+{
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.content-post p
 {
   line-height: 1.5em;
 }
 
-.portfolio
-{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: auto;
-  grid-gap: 1rem;
-}
-
-.portfolio-tile
-{
-  width: 100%;
-  height: 250px;
-  transition: width 0.25s ease-out;
-}
-
-.portfolio-tile figure
-{
-  background: white;
-}
-
-.portfolio-tile:hover
-{
-  /*width: 200%;*/
-  transition: width 0.25s ease-in;
-  z-index: 1;
-}
-
-.portfolio-tile img
-{
-  width: 100%;
-}
-
-.portfolio-date-created
-{
-  color: #888;
-}
-
-.quicklinks
-{
-  text-align: left;
-  width: 50%;
-  padding: 1em 2em 1em 2em;
-}
-
-.quicklinks ul
-{
-  padding: 1em;
-}
-
 .footer-main
 {
-  text-align: center;
-  padding: 2em 0 2em 0;
-}
-
-.center-div-child
-{
+  color: rgba(0, 0, 0, 0.5);
   text-align: center;
 }
 
-ol, ul
+.padding-footer
 {
-  list-style: circle;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
-.left-aligned
+/* Writing styles */
+i
 {
-  display: block;
-  text-align: left;
-  padding: 1em;
+  font-style: italic;
 }
 
+ul
+{
+  list-style: disc;
+}
+
+li
+{
+  line-height: 1.5em;
+}
+
+/* Headings */
 h1
 {
-  font-size: 3em;
-  font-weight: bold;
-  padding: 0.25em 0 0.25em 0;
+  padding-top: 0.5em;
+  padding-bottom: 0.25em;
+  font-size: 2.5em;
+}
+
+h2
+{
+  padding-top: 0.5em;
+  padding-bottom: 0.25em;
+  font-size: 2em;
 }
 
 h3
 {
+  padding-top: 0.5em;
+  padding-bottom: 0.25em;
   font-size: 1.5em;
-  font-weight: bold;
-  padding: 0.25em 0 0.25em 0;
 }
 
-small
+/* For phones */
+@media (max-width: 480px)
 {
-  font-size: 0.75em;
-  padding: 0.15em 0 0.15em 0;
-}
-
-b
-{
-  font-weight: bold;
+  .nav-main
+  {
+    flex-direction: column;
+  }
 }
