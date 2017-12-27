@@ -78,6 +78,29 @@ body
   line-height: 1.5em;
 }
 
+.portfolio
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.portfolio-tile
+{
+  max-width: 50%;
+}
+
+.portfolio-tile figure
+{
+  padding: 8px;
+}
+
+.portfolio-tile img
+{
+  width: 100%;
+}
+
 .footer-main
 {
   color: rgba(0, 0, 0, 0.5);
@@ -134,5 +157,15 @@ h3
   .nav-main
   {
     flex-direction: column;
+  }
+
+  .portfolio
+  {
+    flex-direction: column;
+  }
+
+  .portfolio-tile
+  {
+    max-width: 100%;
   }
 }
