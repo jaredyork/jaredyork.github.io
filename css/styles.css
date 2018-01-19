@@ -3,6 +3,12 @@ body
   background: #fafafa;
 }
 
+.topbar
+{
+  background: #FFF056;
+  padding: 16px;
+}
+
 .coffee-steam
 {
   position: relative;
