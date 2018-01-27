@@ -119,6 +119,13 @@ body
   padding-bottom: 8px;
 }
 
+.featured-video
+{
+  width: 100%;
+  min-width: 320px;
+  max-width: 640px;
+}
+
 /* Writing styles */
 i
 {
