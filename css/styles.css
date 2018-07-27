@@ -84,6 +84,10 @@ body
   line-height: 1.5em;
 }
 
+.content-image.half-width {
+  width: 50%;
+}
+
 .portfolio
 {
   display: flex;
@@ -188,5 +192,9 @@ h3
   .portfolio-tile
   {
     max-width: 100%;
+  }
+
+  .content-image.half-width {
+    width: 100%;
   }
 }
