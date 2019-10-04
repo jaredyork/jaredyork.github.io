@@ -222,7 +222,7 @@ h4 {
 
 @media (max-width: 480px) {
   .article-padding {
-    padding-top: 0.75rem;
+    padding-top: 0.25rem;
   }
 
   .cover-photo-wrapper {
@@ -231,6 +231,6 @@ h4 {
 
   .btn-primary {
    width: 75%;
-   line-height: 4rem;
+   line-height: 2rem;
   }
 }
