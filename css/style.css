@@ -1,0 +1,232 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*
+The remainder of this stylesheet is by Jared York
+(c) 2019 Jared York
+*/
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: #fafafa;
+}
+
+.wrapper-960 {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  background: #ffffff;
+  font-family: "Open Sans", sans-serif;
+}
+
+.wrapper-480 {
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto;
+  background: #ffffff;
+  font-family: "Open Sans", sans-serif;
+}
+
+.cover-photo-wrapper {
+  background-image: url("../images/cover-photo.jpg");
+  background-size: 100%;
+  background-position: 20% -8px;
+  background-repeat: no-repeat;
+  
+  padding-top: 240px;
+  padding-bottom: 128px;
+  text-align: center;
+  color: white;
+  font-size: 64px;
+}
+
+.cover-photo-subtitle, .cover-photo-title {
+  font-family: "Roboto Slab", serif;
+  text-align: center;
+}
+
+.cover-photo-title {
+  font-size: 2.75rem;
+}
+
+.cover-photo-subtitle {
+  font-size: 1.5rem;
+  line-height: 3rem;
+}
+
+.article-padding {
+  padding: 1.2rem 3.2rem 1.2rem 3.2rem;
+}
+
+.summary {
+  padding-top: 2.5rem;
+}
+
+.experience {
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 3.5rem;
+  padding-top: 2.5rem;
+  padding-bottom: 1.5rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  padding-top: 1.6rem;
+  padding-bottom: 0.5rem;
+}
+
+h3 {
+  font-size: 1.9rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.25rem;
+}
+
+h4 {
+  font-size: 1.6rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.15rem;
+}
+
+.heading-work {
+  color: #888888;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+}
+
+.btn-primary {
+  display: block;
+  color: #ffffff;
+  background: rgb(25, 158, 241);
+  width: 50%;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  padding: 1.5rem 1.75rem 1.5rem 1.75rem;
+  border-bottom: 3px solid #2488c7;
+  border-left: 1px solid #2488c7;
+  border-right: 1px solid #2488c7;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn-primary:hover {
+  background: #31aaf5;
+}
+
+.btn-primary.centered {
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.social-icons {
+  text-align: center;
+}
+
+.social-icon-li {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.icon-linkedin {
+  background: url("../images/icons/Linkedin.svg");
+}
+
+.icon-github {
+  background: url("../images/icons/Github.svg");
+}
+
+.icon-twitter {
+  background: url("../images/icons/Twitter.svg");
+}
+
+.social-icon {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 48px;
+  height: 48px;
+}
+
+.copyright {
+  display: block;
+  color: #555;
+  text-align: center;
+  padding: 1.2rem;
+}
+
+@media (max-width: 480px) {
+  .cover-photo-wrapper {
+    background-position: 20% 0px;
+  }
+
+  .btn-primary {
+   width: 75%;
+   line-height: 4.8rem;
+  }
+}
